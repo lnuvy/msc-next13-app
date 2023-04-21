@@ -1,0 +1,30 @@
+/* color style */
+:root {
+  /* brand color */
+  --brand-primary: #e5dfd3;
+  --brand-secondary: #a39c90;
+  --brand-gradient: linear-gradient(
+    90deg,
+    rgba(229, 223, 211, 1) 0%,
+    rgba(163, 156, 144, 1) 100%
+  );
+  /* grayscale color */
+  --black: #141414;
+  --white: #ffffff;
+  --base-100: #fcfcfc;
+  --base-200: #f8f8f8;
+  --base-300: #efefef;
+  --line-100: #ececec;
+  --line-200: #e4e4e4;
+  --line-300: #e2e2e2;
+  --icon-basic: #999999;
+  --icon-img: #393939;
+  /* font color */
+  --strong: #141414;
+  --accent: #6977e4;
+  --main: #333333;
+  --normal: #666666;
+  --disabled: #999999;
+  --guide: rgb(153, 153, 153, 0.6);
+  --error: #ff0000;
+}
