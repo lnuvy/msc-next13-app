@@ -1,3 +1,5 @@
+"use client";
+
 import { theme } from "@/styles/theme";
 import { ThemeProvider } from "styled-components";
 import { createDynamicContext } from "../create-dynamic-context";

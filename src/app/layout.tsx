@@ -1,3 +1,4 @@
+import ThemeContextProvider from "@/context/theme-context";
 import StyledComponentsRegistry from "../../lib/registry";
 import "./globals.css";
 
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <ThemeContextProvider>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </ThemeContextProvider>
       </body>
     </html>
   );

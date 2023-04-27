@@ -1,3 +1,5 @@
+"use client";
+
 import useSafeContext from "@/hooks/use-safe-context";
 import React from "react";
 
